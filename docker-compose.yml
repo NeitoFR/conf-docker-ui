@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+    conf_ui: 
+        image: conf_ui:latest
+        ports:
+            - 80:80
+            
